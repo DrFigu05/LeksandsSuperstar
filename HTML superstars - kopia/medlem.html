@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bli medlem</title>
+    <link rel="shortcut icon" href="img/logotyp.png">
+    <style>
+        label{
+        display: inline;
+        }
+        .backgrund{
+        height: 100vh;
+        }
+        h1{
+        font-family: times new roman;
+        text-align: center;
+        color:red;}
+        label{
+        display: inline; width: 100px;}
+        input[type=submit] {
+    width: 20em;  height: 20em; background-color: red; border-radius: 50px;
+}
+    div.center{
+        text-align: center;
+        padding: 30px;
+    }
+    .ko{text-align: center;}
+    hr{width: 300px;}
+    .å{ padding: 100px;
+    text-align: center;
+    margin: 0px;
+    color: white;
+    font-size: 30px;
+    z-index: 3;
+    background:linear-gradient(#8b71eb, #ebe8e2)}
+    form{
+        margin-left: 500px;
+        margin-right: 500px;
+        z-index: 6;    
+        position: relative;
+        top: -100px;
+    }
+    </style>
+
+        
+
+</head>
+<body class="backgrund" style="background-color: #ebe8e2;">  
+    <a href="index.html"><h1 class="å">Tilbacka</h1></a>
+    <form>
+    <div class="center"> 
+        <h1>Bli medlem</h1>
+        <label for="fname">Förnamn:</label>
+        <input type="text" id="fname" name="fname" required>  <br><br><hr>  
+        <label for="ename">Efternamn:</label>
+        <input type="text" id="ename" name="ename" required><br><br> <hr>
+        <label for="mail">E-post:</label> 
+        <input type="email" id="mail" name="mail" required><br><br><hr>
+        <label for="date">Födelsedatum:</label>
+        <input type="date" name="date" id="date" required><br>
+    </div>
+        <br> <hr>
+    <div class="ko">
+        <span>Kön:</span>
+        <input type="radio" id="radio-1" value="man" name="gender" required>
+        <label for="radio-1">Man</label>
+        <input type="radio" id="radio-2" value="kvinna" name="gender">
+        <label for="radio-2">Kvinna</label>
+        <input type="radio" id="radio-3" value="annat" name="gender">
+        <label for="radio-3">Annat</label><br>
+       
+        <br> <hr>
+        <label for="password">Lösenord:</label> 
+        <input type="password" id="password" name="password" required><br><br>
+    
+<hr>
+        <input type="submit" value="Gå med"><br><br>
+    </div>
+    </form>
+
+</body>
+</html> 
